@@ -475,17 +475,17 @@ ul li a:hover{
 .form {
     width: 270px;
     height: 490px;
-    background: rgba(255, 255, 255, 0.1); /* light transparent white white in 0.1 0r black in 0.1.5 */
-    backdrop-filter: blur(10px); /* glass blur */
-    -webkit-backdrop-filter: blur(10px); /* Safari support */
-    border: 1px solid rgba(255, 114, 0, 0.3); /* subtle #ff7200 border */
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px); 
+    -webkit-backdrop-filter: blur(10px); 
+    border: 1px solid rgba(255, 114, 0, 0.3); 
     position: absolute;
     top: -90px;
     left: 50%;
     transform: translateX(80%);
     border-radius: 10px;
     padding: 25px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); /* soft shadow */
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
 .form h2{
